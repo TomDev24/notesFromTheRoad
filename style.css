@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 #logo {
@@ -42,4 +43,58 @@ a {
   text-decoration: none;
   color:white;
   padding: 10px;
+}
+
+.head{
+  padding-top:200px;
+  background-image: url("./img/hood-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  height:900px;
+  color:white;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+}
+
+.head h1{
+  font-size: 3em;
+  font-weight: 800;
+}
+
+.head a{
+  margin-top: 40px;
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: rgba(224, 133, 13, 1);
+  border-radius: 10%;
+  transition: all 0.4s;
+}
+
+.head p{
+  margin-bottom: 30px;
+}
+
+.head a:hover{
+  background-color: white;
+}
+
+.about-blog{
+  background-color: black;
+}
+
+.about-blog h2{
+  padding-top:10px;
+  color:white;
+  text-align: center;
+}
+
+.about-blog h2::before{
+  content: "_________________";
+  margin-right:1em;
+
+}
+
+.about-blog h2::after{
+  content: "_________________";
+  margin-left:1em;
 }
